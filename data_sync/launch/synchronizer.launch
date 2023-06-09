@@ -1,0 +1,9 @@
+<launch>
+  <node
+    pkg="data_sync"
+    type="synchronizer"
+    name="lidar_and_cam_synchronizer"
+  />
+  </launch>
+
+
