@@ -25,3 +25,13 @@ roslaunch velo2cam_calibration calibrated_tf.launch
 ```
 
 To visualize everything together, launch `rviz` as seen here:
+
+![rviz with the data](rviz-visualization.png)
+
+## Save synchronized data
+
+Once the everything is set, to synchronize the data, the package `data_sync` has been created. This package will save the images as `jpg` and the point-clouds as `pcd` inside the folder of the package. The files will be called with the same name, the timestamp that they share. To launch the code:
+```
+roslaunch data_sync synchronizer.launch
+```
+
