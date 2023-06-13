@@ -3,7 +3,7 @@
 
 
 % Define images to process
-imageFileNames = {'/path/img.jpg'};
+imageFileNames = {'/path/img.jpg','/path/img2.jpg'};
 % Detect calibration pattern in images
 detector = vision.calibration.monocular.CheckerboardDetector();
 [imagePoints, imagesUsed] = detectPatternPoints(detector, imageFileNames);
