@@ -1,5 +1,5 @@
-pathpc='/home/motomami/Desktop/Prueba/prueba.pcd'
-pathim='/home/motomami/Desktop/Prueba/prueba.jpg'
+pathpc='/home/javi/Desktop/Prueba/prueba.pcd'
+pathim='/home/javi/Desktop/Prueba/prueba.jpg'
 im = imread(pathim);
 ptCloud = pcread(pathpc);
 pcshow(ptCloud)
